@@ -154,7 +154,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "wyszukiwanie lotu",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -168,17 +168,18 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "wyszukiwanie lotu"
             ],
             "id": "cd1b029a-9b04-4473-af9e-0d97dfb4230d",
             "source": {
-              "x": 350,
-              "y": 190
+              "cell": "bb45d3d3-37d1-4937-aaa8-af0ef4929089",
+              "port": "b3ce68b5-57cb-449b-a54c-349dea54c5ee"
             },
             "target": {
-              "x": 450,
-              "y": 290
-            }
+              "cell": "db179211-b61a-49cc-a426-dcd7fe5ab794",
+              "port": "2b1a4eeb-b773-4e42-aad9-62f2bb5ca07a"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -296,6 +297,58 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "2f51cf32-7b80-4304-8685-529eed9caa58",
+            "source": {
+              "x": 460,
+              "y": 220
+            },
+            "target": {
+              "cell": "bb45d3d3-37d1-4937-aaa8-af0ef4929089",
+              "port": "b3ce68b5-57cb-449b-a54c-349dea54c5ee"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 330
+              }
+            ]
           }
         ]
       }
