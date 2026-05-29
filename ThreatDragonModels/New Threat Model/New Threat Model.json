@@ -644,6 +644,58 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "zwrot informacji danych użytkownika",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "zwrot informacji danych użytkownika"
+            ],
+            "id": "96eaf206-e45e-46ad-b4d2-442a97e0f55b",
+            "source": {
+              "cell": "bc04980e-5dc4-493c-965a-0a4baeb71a9e",
+              "port": "d2a57420-95d7-4e9e-83dc-5eef52b43b2e"
+            },
+            "target": {
+              "cell": "f3851dfd-7914-47b7-a6d0-d889e0b08919",
+              "port": "3def0acb-d107-414f-a1cd-fa3ab31967af"
+            },
+            "vertices": [
+              {
+                "x": 1195,
+                "y": 140
+              }
+            ]
+          },
+          {
             "position": {
               "x": 490,
               "y": 160
@@ -837,6 +889,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -920,7 +973,6 @@
               ]
             },
             "id": "0a798f26-2dab-4a6b-b7b3-e3e78d00e744",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "aplikacja frontend",
@@ -957,6 +1009,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1040,7 +1093,6 @@
               ]
             },
             "id": "f3851dfd-7914-47b7-a6d0-d889e0b08919",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "aplikacja backend",
@@ -1077,6 +1129,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1160,7 +1213,6 @@
               ]
             },
             "id": "6391097f-8aa6-4ac0-9bed-97602fcdafb4",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "gateway płatniczy",
@@ -1197,6 +1249,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1280,7 +1333,6 @@
               ]
             },
             "id": "dc157cf8-701f-410d-8bfd-4f1c6b7086c0",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "bank",
@@ -1317,6 +1369,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1400,7 +1453,6 @@
               ]
             },
             "id": "bc04980e-5dc4-493c-965a-0a4baeb71a9e",
-            "zIndex": 17,
             "data": {
               "type": "tm.Store",
               "name": "baza użytkowników",
@@ -1419,8 +1471,8 @@
           },
           {
             "position": {
-              "x": 1310,
-              "y": 280
+              "x": 1300,
+              "y": 270
             },
             "size": {
               "width": 170,
@@ -1441,6 +1493,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1524,7 +1577,6 @@
               ]
             },
             "id": "368ab3c2-669a-45b0-ac67-14ff8d6a62ed",
-            "zIndex": 18,
             "data": {
               "type": "tm.Store",
               "name": "baza rezerwacji",
@@ -1586,8 +1638,96 @@
               "cell": "bc04980e-5dc4-493c-965a-0a4baeb71a9e",
               "port": "d2a57420-95d7-4e9e-83dc-5eef52b43b2e"
             },
+            "vertices": [
+              {
+                "x": 1020,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "wybranie lotu",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "wybranie lotu"
+            ],
+            "id": "eb2d2437-a155-459a-8a39-b25a3f6c8986",
+            "source": {
+              "x": 630,
+              "y": -200
+            },
+            "target": {
+              "x": 730,
+              "y": -100
+            },
+            "vertices": [],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
