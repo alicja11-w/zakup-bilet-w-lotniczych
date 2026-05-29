@@ -1337,13 +1337,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2120,6 +2113,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2203,7 +2197,6 @@
               ]
             },
             "id": "cedf5bc3-c320-42b2-a9a7-895261767d45",
-            "zIndex": 22,
             "data": {
               "type": "tm.Actor",
               "name": "skrzynka e-mail\nklienta",
